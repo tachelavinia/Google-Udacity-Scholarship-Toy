@@ -70,7 +70,7 @@ public class SettingsFragment extends PreferenceFragmentCompat implements OnShar
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
-        getPreferenceScreen().getSharedPreferences().registerOnSharedPreferenceChangeListener(this);
         super.onCreate(savedInstanceState);
+        getPreferenceScreen().getSharedPreferences().registerOnSharedPreferenceChangeListener(this);
     }
 }
